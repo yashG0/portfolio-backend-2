@@ -15,8 +15,8 @@ app.use(cors({ credentials: true, origin: true }));
 dotenv.config();
 const PORT = process.env.PORT || 3500;
 const corsOptions = {
-    origin: "https://portfolio-frontend-alpha-henna.vercel.app/",
-    optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+    origin: "https://portfolio-frontend-alpha-henna.vercel.app",
+    optionsSuccessStatus: 200,
     credentials: true
 };
 
