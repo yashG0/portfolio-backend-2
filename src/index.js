@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 3500;
 const corsOptions = {
-    origin: "https://portfolio-frontend-alpha-henna.vercel.app",
+    origin: "https://yashtechportfolio.netlify.app",
     optionsSuccessStatus: 200,
     credentials: true
 };
